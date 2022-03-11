@@ -20,7 +20,7 @@ To process your .wav files containing the audio of interest, run:
 Note that the use of GPU will speed up diarization substantially, but this will require CUDA toolkit
 and a compatible GPU.
 
-If you want to run ALICE but already did run the VTC module on the audio files, you can run ALICE without running VTC first by using the --no-vtc option and providing a path to the rttm files outputed by VTC. Make sure that the wav files referenced inside the rttm ones do correspond to the wav that is present in you data directory
+If you want to run ALICE but already ran the VTC module on the audio files, you can run ALICE without VTC by using the --no-vtc option and providing a path to the rttm files outputed by VTC. Please make sure that the file names referenced inside do correspond to the wav files present in you data directory
 ```
   $ ./run_ALICE.sh <data_location> --no-vtc <rttm_location>
 ```
