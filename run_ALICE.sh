@@ -32,8 +32,8 @@ done
 
 set -- "${POSITIONAL_ARGS[@]}" # restore positional parameters
 
-echo "GPU           = ${GPU}"
-echo "RTTM PATH     = ${RTTM}"
+# echo "GPU           = ${GPU}"
+# echo "RTTM PATH     = ${RTTM}"
 
 THISDIR="$( cd "$( dirname "$0" )" && pwd )"
 
