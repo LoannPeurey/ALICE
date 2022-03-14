@@ -15,7 +15,7 @@ while [[ $# -gt 0 ]]; do
       shift # past argument
       shift # past value
       ;;
-    -g|--gpu)
+    -g|--gpu|gpu)
       GPU='gpu'
       shift # past argument
       ;;

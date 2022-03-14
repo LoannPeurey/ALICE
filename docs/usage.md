@@ -13,7 +13,7 @@ To process your .wav files containing the audio of interest, run:
   where <data_location> = folder of .wavs, path to a .wav, or path to a .txt file
   with a list of .wav paths, one per row.
 
-  For GPU use during diarization , use the -g|--gpu option
+  For GPU use during diarization , use the -g|--gpu|gpu option
 ```
   $ ./run_ALICE.sh <data_location> --gpu
 ```
