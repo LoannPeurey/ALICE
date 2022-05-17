@@ -8,7 +8,7 @@ while [[ $# -gt 0 ]]; do
   case $1 in
     --no-vtc)
       RTTM="$2"
-      if [$2 = ""]; then
+      if [ -z "$2" ]; then
           echo "you must provide a path to rttm files if you do not wish to run vtc, usage: --no-vtc <rttm_path>"
           exit 2
       fi
