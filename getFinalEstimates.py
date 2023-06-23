@@ -22,7 +22,8 @@ fileid = []
 for line in DATA:
     s = line[0]
     path, filename = os.path.split(s)
-    fileid.append(filename[0:-22])
+    #fileid.append(filename[0:-22])
+    fileid.append('_'.join(filename.split('_')[:-2]))
 
 uq_files = list(set(fileid))
 
